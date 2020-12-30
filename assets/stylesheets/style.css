@@ -120,13 +120,20 @@ header {
 
 /*  MAIN SECTION COMMONS */
 .mainBtn {
-    
+    border: 2px solid rgba(128, 128, 128, 0.199);
+    background-color: white;
+    color: #666666;
+}
+
+.mainBtn:hover {
+    background-color: rgba(128, 128, 128, 0.062);
 }
 
 /* MAIN SECTION 1ST ROW */
 .row1 {
     padding: 65px 0;
     background-color: white;
+    border-bottom: 2px solid rgba(197, 197, 197, 0.486);
 }
 
 .row1Col1 {
@@ -153,5 +160,13 @@ header {
     font-size: 17px;
     font-weight: lighter;
     padding-right: 25px;
+}
+
+.row1Col2 ul {
+    list-style-type: square;
+    color: #777777;
+    line-height: 3.2;
+    font-size: 17px;
+    padding-left: 25px;
 }
 
