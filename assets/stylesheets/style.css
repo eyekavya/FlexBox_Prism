@@ -126,14 +126,14 @@ header {
 }
 
 .mainBtn:hover {
-    background-color: rgba(128, 128, 128, 0.062);
+    background-color: rgba(128, 128, 128, 0.082);
 }
 
 /* MAIN SECTION 1ST ROW */
 .row1 {
     padding: 65px 0;
     background-color: white;
-    border-bottom: 2px solid rgba(197, 197, 197, 0.486);
+    border-bottom: 2px solid rgba(197, 197, 197, 0.897);
 }
 
 .row1Col1 {
@@ -169,4 +169,24 @@ header {
     font-size: 17px;
     padding-left: 25px;
 }
+
+/* MAIN SECTION 2ND ROW(PARENT) */
+.row2 {
+    padding: 65px 0;
+}
+
+.row2Child {
+    margin-bottom: 50px;
+    border-bottom: 2px solid rgba(197, 197, 197, 0.87);
+}
+
+.image {
+    width: 30%;
+}
+
+.iamgeDescription {
+    width: 70%;
+}
+
+
 
