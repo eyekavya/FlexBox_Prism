@@ -1,67 +1,157 @@
 body {
-    background-color: #e8e8e8;
-    font-size: 18px;
+  background-color: #e8e8e8;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Commons */
 .wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
-    width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 /* FlexBox Commons */
 .flex {
-    display: flex;
+  display: flex;
+}
+
+/* Common Button */
+.btn {
+  height: 47px;
+  width: 175px;
+  border-radius: 30px;
+  border-style: none;
+  font-weight: bold;
+}
+
+.btn a {
+  text-decoration: none;
 }
 
 /* HEADER */
 header {
-    height: 60vh;
-    background: linear-gradient(to right, #4a4771,#7c3875); 
+  height: 450px;
+  background: linear-gradient(to right, #4a4771, #7c3875);
 }
 
 /* Nav Bar */
 .nav {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 /* Logo */
 .logo {
-    padding: 15px;
+  padding: 15px;
 }
 
-.logo h1 a{
-    color: white;
-    font-size: 35px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 450;
-    text-decoration: none;
+.logo h1 a {
+  color: white;
+  font-size: 35px;
+  font-weight: 450;
+  text-decoration: none;
 }
 
 .logo h1 a:hover {
-    color: #2ad463;
+  color: #2ad463;
 }
 
 /* Menu Bar */
 .menu ul li {
-    display: inline-block;
-    padding: 15px;
-    text-transform: uppercase;
+  display: inline-block;
+  padding: 15px;
+  text-transform: uppercase;
 }
 
 .menu ul li a {
-    text-decoration: none;
-    color: #2ad463;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #2ad463;
 }
 
 .menu ul li a:hover {
-    color: white;
+  color: white;
 }
 
 /* HERO SECTION */
-/* .hero {
+.hero {
+  margin-top: 150px;
+}
+
+.heroCol1 {
+  width: 50%;
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 1.3;
+}
+
+.heroCol2 {
+  width: 50%;
+  color: rgba(197, 197, 197, 0.76);
+  font-weight: bold;
+  line-height: 1.4;
+  padding-left: 45px;
+  border-left: 2px solid rgba(197, 197, 197, 0.103);
+}
+
+.heroBtn {
+  margin-top: 30px;
+  background-color: #00bc8a;
+  color: white;
+  cursor: pointer;
+}
+
+.heroBtn:hover {
+  background-color: #2fdbad;
+}
+
+.heroBtn a {
+  color: white;
+}
+
+.heroCol1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.heroCol1 a:hover {
+  color: #00bc8a;
+}
+
+/*  MAIN SECTION COMMONS */
+.mainBtn {
     
-} */
+}
+
+/* MAIN SECTION 1ST ROW */
+.row1 {
+    padding: 65px 0;
+    background-color: white;
+}
+
+.row1Col1 {
+    width: 50%;
+}
+
+.row1Col2 {
+    width: 50%;
+    padding-left: 45px;
+    border-left: 2px solid rgba(197, 197, 197, 0.486);
+}
+
+.row1Col1 h2 {
+    margin-top: 10px;
+    color: #666666;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.row1Col1 p {
+    margin: 35px 0;
+    color: #777777;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: lighter;
+    padding-right: 25px;
+}
+
