@@ -176,15 +176,20 @@ header {
 }
 
 .row2Child {
+    background-color: white;
     margin-bottom: 50px;
     border-bottom: 2px solid rgba(197, 197, 197, 0.87);
 }
 
 .image {
     width: 30%;
+    box-sizing: border-box;
+}
+.image img{
+    vertical-align: top;
 }
 
-.iamgeDescription {
+.imageDescription {
     width: 70%;
 }
 
