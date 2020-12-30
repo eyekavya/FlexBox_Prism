@@ -171,9 +171,9 @@ header {
   padding-left: 25px;
 }
 /* ROW2 BUTTON COMMONS */
-.btnRow2 {
-    margin: 40px 45px;
-    width: 145px;
+.btnDes {
+  margin: 40px 45px;
+  width: 145px;
 }
 
 /* MAIN SECTION 2ND ROW(PARENT) */
@@ -212,4 +212,18 @@ header {
   font-size: 17px;
   font-weight: lighter;
   padding: 0 45px;
+}
+
+/* ROW 2 MAIN BUTTON */
+.btnRow2 {
+  width: 250px;
+  height: 50px;
+  letter-spacing: 1.5px;
+  align-items: center;
+}
+
+.btnCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
