@@ -120,78 +120,96 @@ header {
 
 /*  MAIN SECTION COMMONS */
 .mainBtn {
-    border: 2px solid rgba(128, 128, 128, 0.199);
-    background-color: white;
-    color: #666666;
+  border: 2px solid rgba(128, 128, 128, 0.199);
+  background-color: white;
+  color: #666666;
+  letter-spacing: 1px;
 }
 
 .mainBtn:hover {
-    background-color: rgba(128, 128, 128, 0.082);
+  background-color: rgba(128, 128, 128, 0.082);
 }
 
 /* MAIN SECTION 1ST ROW */
 .row1 {
-    padding: 65px 0;
-    background-color: white;
-    border-bottom: 2px solid rgba(197, 197, 197, 0.897);
+  padding: 65px 0;
+  background-color: white;
+  border-bottom: 2px solid rgba(197, 197, 197, 0.897);
 }
 
 .row1Col1 {
-    width: 50%;
+  width: 50%;
 }
 
 .row1Col2 {
-    width: 50%;
-    padding-left: 45px;
-    border-left: 2px solid rgba(197, 197, 197, 0.486);
+  width: 50%;
+  padding-left: 45px;
+  border-left: 2px solid rgba(197, 197, 197, 0.486);
 }
 
 .row1Col1 h2 {
-    margin-top: 10px;
-    color: #666666;
-    font-weight: bold;
-    font-size: 28px;
+  margin-top: 10px;
+  color: #666666;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 .row1Col1 p {
-    margin: 35px 0;
-    color: #777777;
-    line-height: 1.7;
-    font-size: 17px;
-    font-weight: lighter;
-    padding-right: 25px;
+  margin: 35px 0;
+  color: #777777;
+  line-height: 1.7;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-right: 25px;
 }
 
 .row1Col2 ul {
-    list-style-type: square;
-    color: #777777;
-    line-height: 3.2;
-    font-size: 17px;
-    padding-left: 25px;
+  list-style-type: square;
+  color: #777777;
+  line-height: 3.2;
+  font-size: 17px;
+  padding-left: 25px;
+}
+/* ROW2 BUTTON COMMONS */
+.btnRow2 {
+    margin: 40px 45px;
+    width: 145px;
 }
 
 /* MAIN SECTION 2ND ROW(PARENT) */
 .row2 {
-    padding: 65px 0;
+  padding: 65px 0;
 }
 
 .row2Child {
-    background-color: white;
-    margin-bottom: 50px;
-    border-bottom: 2px solid rgba(197, 197, 197, 0.87);
+  background-color: white;
+  margin-bottom: 50px;
+  border-bottom: 2px solid rgba(197, 197, 197, 0.87);
 }
 
 .image {
-    width: 30%;
-    box-sizing: border-box;
+  width: fit-content;
+  box-sizing: border-box;
 }
-.image img{
-    vertical-align: top;
+.image img {
+  vertical-align: top;
 }
 
 .imageDescription {
-    width: 70%;
+  width: 70%;
 }
 
+.imageDescription h2 {
+  padding: 80px 0 40px 45px;
+  color: #666666;
+  font-weight: bold;
+  font-size: 23px;
+}
 
-
+.imageDescription p {
+  color: #777777;
+  line-height: 1.7;
+  font-size: 17px;
+  font-weight: lighter;
+  padding: 0 45px;
+}
