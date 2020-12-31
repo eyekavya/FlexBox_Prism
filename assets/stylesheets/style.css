@@ -222,6 +222,7 @@ header {
   height: 50px;
   letter-spacing: 1.5px;
   align-items: center;
+  background-color: #e8e8e8;
 }
 
 .btnCenter {
@@ -235,5 +236,14 @@ header {
     background-color: white;
     padding: 65px 85px;
     border-bottom: 2px solid rgba(197, 197, 197, 0.87);
+}
 
+/* COLUMN 1 */
+.feedback {
+    width: 50%;
+}
+
+/* COLUMN 2 */
+.info {
+    width: 50%;
 }
