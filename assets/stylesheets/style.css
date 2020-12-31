@@ -237,14 +237,35 @@ header {
 
 /* COLUMN 1 */
 .feedback {
-    width: 50%;
+    width: 58%;
+    border-right: 2px solid rgba(197, 197, 197, 0.486);
 }
+
+/* FORM */
+form input {
+    padding: 12px;
+    font-size: 17px;
+    margin-right: 30px;
+    margin-bottom: 28px;
+}
+
+input[type=text] {
+    /* box-sizing: border-box; */
+    border: 1px solid #77777749;
+    color: rgba(119, 119, 119, 0.116);
+    transition: border 0.5s ease-in-out;
+}
+
+input[type=text]:focus {
+    border-color: #00bc8a;
+}
+
+
 
 /* COLUMN 2 */
 .info {
     width: 50%;
     padding-left: 45px;
-    border-left: 2px solid rgba(197, 197, 197, 0.486);
 }
 
 .info ul a, .info ul {
@@ -254,4 +275,6 @@ header {
     line-height: 2.5;
 }
 
+
+/* Footer */
 
