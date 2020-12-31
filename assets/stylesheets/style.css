@@ -11,6 +11,24 @@ body {
   width: 100%;
 }
 
+/* Common Heading */
+.heading {
+    margin-top: 10px;
+    color: #666666;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* Common Paragraph */
+.paragraph {
+    margin: 35px 0;
+    color: #777777;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: lighter;
+    padding-right: 25px;
+  }
+
 /* FlexBox Commons */
 .flex {
   display: flex;
@@ -147,22 +165,6 @@ header {
   border-left: 2px solid rgba(197, 197, 197, 0.486);
 }
 
-.row1Col1 h2 {
-  margin-top: 10px;
-  color: #666666;
-  font-weight: bold;
-  font-size: 28px;
-}
-
-.row1Col1 p {
-  margin: 35px 0;
-  color: #777777;
-  line-height: 1.7;
-  font-size: 17px;
-  font-weight: lighter;
-  padding-right: 25px;
-}
-
 .row1Col2 ul {
   list-style-type: square;
   color: #777777;
@@ -226,4 +228,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* LAST ROW */
+.lastSection {
+    background-color: white;
+    padding: 65px 85px;
+    border-bottom: 2px solid rgba(197, 197, 197, 0.87);
+
 }
