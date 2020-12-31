@@ -13,21 +13,21 @@ body {
 
 /* Common Heading */
 .heading {
-    margin-top: 10px;
-    color: #666666;
-    font-weight: bold;
-    font-size: 28px;
+  margin-top: 10px;
+  color: #666666;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 /* Common Paragraph */
 .paragraph {
-    margin: 35px 0;
-    color: #777777;
-    line-height: 1.7;
-    font-size: 17px;
-    font-weight: lighter;
-    padding-right: 25px;
-  }
+  margin: 35px 0;
+  color: #777777;
+  line-height: 1.7;
+  font-size: 17px;
+  font-weight: lighter;
+  padding-right: 25px;
+}
 
 /* FlexBox Commons */
 .flex {
@@ -150,10 +150,10 @@ header {
 
 /* Common Row Properties */
 .row {
-    padding: 65px 0;
-    background-color: white;
-    border-bottom: 2px solid rgba(197, 197, 197, 0.897);
-  }
+  padding: 65px 0;
+  background-color: white;
+  border-bottom: 2px solid rgba(197, 197, 197, 0.897);
+}
 
 /* MAIN SECTION 1ST ROW */
 
@@ -224,7 +224,6 @@ header {
   height: 50px;
   letter-spacing: 1.5px;
   background-color: #e8e8e8;
-
 }
 
 .btnCenter {
@@ -237,53 +236,55 @@ header {
 
 /* COLUMN 1 */
 .feedback {
-    width: 58%;
-    border-right: 2px solid rgba(197, 197, 197, 0.486);
+  width: 58%;
+  border-right: 2px solid rgba(197, 197, 197, 0.486);
 }
 
 /* FORM */
 form input {
-    padding: 12px;
-    font-size: 17px;
-    margin-right: 30px;
-    margin-bottom: 28px;
+  padding: 12px;
+  font-size: 17px;
+  margin-right: 30px;
+  margin-bottom: 28px;
+}
+form input::placeholder {
+  color: #2ad463;
 }
 
 form textarea {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+  resize: none;
 }
 
-input[type=text] {
-    /* box-sizing: border-box; */
-    border: 1px solid #77777749;
-    color: rgba(119, 119, 119, 0.116);
-    transition: border 0.5s ease-in-out;
+input[type="text"] {
+  box-sizing: border-box;
+  border: 1px solid #77777749;
+  color: rgba(119, 119, 119, 0.116);
+  transition: border 0.5s ease-in-out;
 }
 
-input[type=text]:focus {
-    border-color: #00bc8a;
+input[type="text"]:focus {
+  border: 1px solid #00bc8a;
 }
-
-
 
 /* COLUMN 2 */
 .info {
-    width: 50%;
-    padding-left: 45px;
+  width: 50%;
+  padding-left: 45px;
 }
 
-.info ul a, .info ul {
-    color: #777;
-    text-decoration: none;
-    font-size: 17px;
-    line-height: 2.5;
+.info ul a,
+.info ul {
+  color: #777;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 2.5;
 }
-
 
 /* Footer */
 footer {
-    padding: 60px;
-    font-size: 15px;
-    color: #77777788;
-    text-align: center;
+  padding: 60px;
+  font-size: 15px;
+  color: #77777788;
+  text-align: center;
 }
