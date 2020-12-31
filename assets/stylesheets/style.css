@@ -281,4 +281,9 @@ input[type=text]:focus {
 
 
 /* Footer */
-
+footer {
+    padding: 60px;
+    font-size: 15px;
+    color: #77777788;
+    text-align: center;
+}
