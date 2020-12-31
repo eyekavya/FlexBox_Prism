@@ -41,6 +41,7 @@ body {
   border-radius: 30px;
   border-style: none;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .btn a {
@@ -116,7 +117,6 @@ header {
   margin-top: 30px;
   background-color: #00bc8a;
   color: white;
-  cursor: pointer;
 }
 
 .heroBtn:hover {
@@ -137,6 +137,7 @@ header {
 }
 
 /*  MAIN SECTION COMMONS */
+/* BUTTON */
 .mainBtn {
   border: 2px solid rgba(128, 128, 128, 0.199);
   background-color: white;
