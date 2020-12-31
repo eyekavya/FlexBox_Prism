@@ -243,6 +243,15 @@ header {
 /* COLUMN 2 */
 .info {
     width: 50%;
+    padding-left: 45px;
+    border-left: 2px solid rgba(197, 197, 197, 0.486);
+}
+
+.info ul a, .info ul {
+    color: #777;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 2.5;
 }
 
 
