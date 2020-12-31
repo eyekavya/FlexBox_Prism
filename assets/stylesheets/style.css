@@ -148,12 +148,14 @@ header {
   background-color: rgba(128, 128, 128, 0.082);
 }
 
+/* Common Row Properties */
+.row {
+    padding: 65px 0;
+    background-color: white;
+    border-bottom: 2px solid rgba(197, 197, 197, 0.897);
+  }
+
 /* MAIN SECTION 1ST ROW */
-.row1 {
-  padding: 65px 0;
-  background-color: white;
-  border-bottom: 2px solid rgba(197, 197, 197, 0.897);
-}
 
 .row1Col1 {
   width: 50%;
@@ -232,11 +234,6 @@ header {
 }
 
 /* LAST ROW */
-.lastSection {
-    background-color: white;
-    padding: 65px 85px;
-    border-bottom: 2px solid rgba(197, 197, 197, 0.87);
-}
 
 /* COLUMN 1 */
 .feedback {
@@ -247,3 +244,5 @@ header {
 .info {
     width: 50%;
 }
+
+
