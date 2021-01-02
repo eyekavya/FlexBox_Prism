@@ -285,6 +285,7 @@ input[type="text"]:focus {
 
 .info ul li i {
   color: #00bc8a;
+  padding-left: 10px;
 }
 
 /* Footer */
