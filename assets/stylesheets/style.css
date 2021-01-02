@@ -265,6 +265,7 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
+  outline: none;
   border: 1px solid #00bc8a;
 }
 
@@ -280,6 +281,10 @@ input[type="text"]:focus {
   text-decoration: none;
   font-size: 17px;
   line-height: 2.5;
+}
+
+.info ul li i {
+  color: #00bc8a;
 }
 
 /* Footer */
