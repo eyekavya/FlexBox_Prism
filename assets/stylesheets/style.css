@@ -276,16 +276,16 @@ input[type="text"]:focus {
 }
 
 .info ul a,
-.info ul {
+.info ul li{
   color: #777;
   text-decoration: none;
   font-size: 17px;
   line-height: 2.5;
+  padding-left: 15px;
 }
 
 .info ul li i {
   color: #00bc8a;
-  padding-left: 10px;
 }
 
 /* Footer */
