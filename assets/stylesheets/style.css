@@ -248,25 +248,31 @@ form input {
   margin-right: 30px;
   margin-bottom: 28px;
 }
-form input::placeholder {
-  color: #2ad463;
+form input::placeholder, form textarea::placeholder {
+  color: #77777783;
 }
 
 form textarea {
   margin-bottom: 30px;
   resize: none;
+  border: 2px solid #00bc8a;
+  padding: 12px;
+  font-size: 18px;
+  width: 500px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
 }
 
 input[type="text"] {
   box-sizing: border-box;
   border: 1px solid #77777749;
   color: rgba(119, 119, 119, 0.116);
-  transition: border 0.5s ease-in-out;
+  transition: border 0.1s ease-in-out;
 }
 
 input[type="text"]:focus {
   outline: none;
-  border: 1px solid #00bc8a;
+  border: 2px solid #00bc8a;
 }
 
 /* COLUMN 2 */
